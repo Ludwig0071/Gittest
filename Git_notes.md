@@ -17,9 +17,10 @@ warning: LF will be replaced by CRLF
 
 处理方法：配置选项修改 把core.autocrlf 设置成false
 ``` bash
-git config –global core.autocrlf true #这个是转换，也是默认值
-git config –global core.autocrlf input #貌似是上库转换，从库中迁出代码不转换
-git config –global core.autocrlf false #这个一般是window上的，不转换
+# core.autocrlf的三个选项
+git config –-global core.autocrlf true #这个是转换，也是默认值
+git config –-global core.autocrlf input #貌似是上库转换，从库中迁出代码不转换
+git config –-global core.autocrlf false #这个一般是window上的，不转换
 ```
 
 ### 3.Git切换远程仓库地址
